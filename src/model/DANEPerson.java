@@ -47,7 +47,8 @@ public class DANEPerson implements Comparable<DANEPerson>{
     public int compareTo(DANEPerson o){
         //Comparamos 2 objetos
         //This comparandi con o
-        return this.lastname.compareTo(o.getLastname());
+        //return this.lastname.compareTo(o.getLastname());
+        return this.id - o.getId();
     }
 
 
